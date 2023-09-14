@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Simple Website</title>
+    <style>
+        body {
+            background-color: whitesmoke;
+            color: rgb(39, 35, 35);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: black;
+        }
+
+        nav {
+            background-color: rgb(53, 52, 52);
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        .content {
+            display: flex;
+            background-color: whitesmoke;
+            padding: 20px;
+            margin-right: 10%;
+        }
+
+        /* Sidebar Styles */
+        .sidebar {
+            width: 200px;
+            background-color: whitesmoke;
+            padding: 20px;
+            color: rgb(10, 8, 8);
+            
+        }
+
+        /* Main Content Styles */
+        .main-content {
+            flex-grow: 1;
+            background-color: white;
+        }
+
+        /* Updated Paragraph Background */
+        .main-content p {
+            
+            padding: 10px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: black;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: white;">Your Website</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#service">Service</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="content">
+        <!-- Sidebar -->
+       
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <h2>This is the main page of your website</h2>
+            <p>This is a simple website with a brown content section.</p>
+        </div>
+        <div class="sidebar">
+            <strong>Sidebar</strong>            
+            <ul>
+                <li>List 1</li>
+                <li>List 2</li>
+                <li>List 3</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        &copy; 2023 Your Company. All Rights Reserved.
+    </footer>
+</body>
+</html>
